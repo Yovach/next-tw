@@ -1,15 +1,12 @@
 {
   "name": "next-tw",
   "version": "0.0.0",
-  "description": "",
+  "description": "A collection of Tailwind CSS plugins",
   "license": "MIT",
   "scripts": {
     "build": "tsup",
     "watch": "tsup --watch src"
   },
-  "files": [
-    "dist"
-  ],
   "exports": {
     "./scrollbar": {
       "import": "./dist/scrollbar.mjs",
@@ -23,5 +20,12 @@
   },
   "peerDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yovach/next-tw.git" 
   }
 }
