@@ -3,18 +3,20 @@
   "version": "0.0.3",
   "description": "A collection of Tailwind CSS plugins",
   "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "watch": "tsup --watch src"
   },
   "exports": {
-    "./scrollbar": {
-      "import": "./dist/scrollbar.mjs",
-      "require": "./dist/scrollbar.cjs"
-    },
-    "./spinner": {
-      "import": "./dist/spinner.mjs",
-      "require": "./dist/spinner.cjs"
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "devDependencies": {
@@ -25,11 +27,8 @@
   "peerDependencies": {
     "tailwindcss": "^3.3.3"
   },
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yovach/next-tw.git"
+    "url": "git+https://github.com/Yovach/next-tw.git"
   }
 }
