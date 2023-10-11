@@ -2,7 +2,8 @@
   "name": "website",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {
+  "scripts": {
+    "build:css": "tailwind -i src/app.css -o public/style.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.3",

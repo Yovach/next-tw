@@ -11,5 +11,8 @@ export default {
   plugins: [
     plugin,
   ],
+  experimental: {
+    optimizeUniversalDefaults: true,
+  },
 } satisfies Config
 
