@@ -11,6 +11,10 @@
     "./scrollbar": {
       "import": "./dist/scrollbar.mjs",
       "require": "./dist/scrollbar.cjs"
+    },
+    "./spinner": {
+      "import": "./dist/spinner.mjs",
+      "require": "./dist/spinner.cjs"
     }
   },
   "devDependencies": {
