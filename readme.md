@@ -1,3 +1,9 @@
 # next-tw
 
-working on it
+A simple collection of Tailwind CSS plugins.
+
+## Installation
+
+```bash
+npm install next-tw
+```
