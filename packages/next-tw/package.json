@@ -1,6 +1,6 @@
 {
   "name": "next-tw",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A collection of Tailwind CSS plugins",
   "license": "MIT",
   "main": "./dist/index.js",
